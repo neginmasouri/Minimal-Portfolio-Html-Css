@@ -1,0 +1,22 @@
+//tags
+h2,
+a,
+p,
+span {
+  text-align: center;
+  color: map-get($colors, first);
+}
+i {
+  padding: 1rem;
+  cursor: pointer;
+  color: map-get($colors, first);
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
+  color: map-get($colors, first);
+}
+a:hover {
+  color: map-get($colors, third);
+  padding: 0.5rem;
+}

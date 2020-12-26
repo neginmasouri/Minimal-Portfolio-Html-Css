@@ -1,0 +1,110 @@
+@media (max-width: 40rem) {
+  .main__nav {
+    height: auto;
+  }
+  .main__nav .nav__items {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    height: 90vh;
+    align-items: center;
+    width: 50%;
+    background-color: #59a8a2;
+    transform: translateX(100%);
+    transition: 0.5s all ease-in-out;
+  }
+  .main__nav .burger {
+    display: block;
+    cursor: pointer;
+  }
+  .main__nav .toggle {
+    transform: translateX(0);
+  }
+  .main__section {
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+  .main__section .main__img {
+    width: 30%;
+    height: 30%;
+  }
+  .about__content {
+    flex-direction: column;
+  }
+  .main__skills {
+    display: block;
+    width: 100%;
+  }
+  .projects .projects__img img {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1;
+    margin: 0 2rem;
+    width: 100%;
+  }
+  .main__form {
+    flex-direction: column;
+  }
+  .main__form .container {
+    flex-direction: column;
+    margin-right: 3rem;
+    order: 3;
+  }
+  .main__form .comment {
+    text-align: center;
+    margin-right: 3rem;
+  }
+  .main__footer {
+    flex-direction: column;
+  }
+}
+
+.projects__img {
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+}
+
+.main__social ul {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+@media (max-width: 60rem) {
+  .main__nav .logo {
+    margin-left: 1rem;
+    font-size: 0.75rem;
+  }
+  .main__nav {
+    height: auto;
+  }
+  .main__nav .nav__items {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    height: 90vh;
+    align-items: center;
+    width: 50%;
+    background-color: #59a8a2;
+    transform: translateX(100%);
+    transition: 0.5s all ease-in-out;
+  }
+  .main__nav .burger {
+    display: block;
+    cursor: pointer;
+  }
+  .main__nav .toggle {
+    transform: translateX(0);
+  }
+  .nav__items {
+    width: 40%;
+    margin-left: 1rem;
+  }
+}
+
+.projects__img {
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+}
+/*# sourceMappingURL=responsive.css.map */

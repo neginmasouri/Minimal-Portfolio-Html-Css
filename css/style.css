@@ -1,0 +1,302 @@
+h2,
+a,
+p,
+span {
+  text-align: center;
+  color: #0c0641;
+}
+
+i {
+  padding: 1rem;
+  cursor: pointer;
+  color: #0c0641;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0c0641;
+}
+
+a:hover {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto";
+}
+
+.main__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  background-color: #59a8a2;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.main__nav .logo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: #0c0641;
+  animation: animate 1s ease-out 2s 1;
+}
+
+.nav__items {
+  display: flex;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__items li {
+  display: inline-block;
+  padding: 1rem;
+  list-style: none;
+  animation: animate 1s ease-out 2s 1;
+}
+
+.burger {
+  display: none;
+}
+
+.burger i {
+  color: #0c0641;
+}
+
+.main__section {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: -1;
+}
+
+.main__section .main__img {
+  background: url("../images/pic8.png") center/cover no-repeat;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.main__section .section__content {
+  width: 30%;
+  height: 100%;
+  display: block;
+  animation: animate 1s ease-out 2s 1;
+  margin: 0 auto;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.about__content .img img {
+  width: 70%;
+  height: 70%;
+  background-color: #f2f2f2;
+  border-radius: 100%;
+}
+
+.about__content .achievements,
+.about__content .text {
+  display: block;
+  width: 80%;
+}
+
+.main__skills {
+  display: block;
+  width: 100%;
+  margin: 5rem 1rem;
+}
+
+.main__skills .progress {
+  margin: 1rem auto;
+  width: 60%;
+  background-color: #59a8a2;
+  border-radius: 5px;
+}
+
+.main__skills .percent__progress {
+  background-color: #0c0641;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.main__skills .one {
+  width: 90%;
+}
+
+.main__skills .two {
+  width: 80%;
+}
+
+.main__skills .three {
+  width: 60%;
+}
+
+.main__skills .four {
+  width: 60%;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.projects .projects__img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 50%;
+}
+
+.projects .projects__img img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #0c0641;
+  border-radius: 5px;
+  margin: 1rem 1rem;
+}
+
+.projects .projects__img img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.projects .projects__text {
+  width: 20%;
+}
+
+.main__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.main__form .container {
+  width: 60%;
+}
+
+.main__form .container input,
+.main__form .container textarea {
+  display: block;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #0c0641;
+}
+
+.main__form .comment {
+  display: block;
+  width: 10%;
+}
+
+.main__form .btn {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  padding: 0.5rem;
+  font-family: inherit;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #0c0641;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #0c0641;
+}
+
+.main__form .text {
+  width: 20%;
+  color: #0c0641;
+}
+
+.main__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  background-color: #59a8a2;
+}
+
+.main__footer .main__info {
+  width: 40%;
+}
+
+.main__footer .main__info h2,
+.main__footer .main__info h4 {
+  color: #0c0641;
+  animation: animate 1s ease-out 2s 1;
+  text-align: center;
+}
+
+.main__footer .main__social {
+  width: 40%;
+  display: flex;
+  animation: animate 1s ease-out 2s 1;
+}
+
+.main__footer .main__social ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.main__footer .main__social i:hover {
+  color: #fff;
+}
+
+.support {
+  width: 40%;
+}
+
+.description {
+  width: 40%;
+}
+
+.arrow {
+  position: sticky;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+}
+
+@keyframes animate {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
